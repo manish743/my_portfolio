@@ -1,0 +1,49 @@
+.contact .contact-me {
+    margin-top: 20px;
+}
+
+.contact-me h1 {
+    color: #3e497a;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+form .form-element {
+    margin-bottom: 10px;
+}
+
+.form-element input {
+    font-size: 1.2rem;
+    padding: 6px;
+    width: 25%;
+}
+
+.form-element textarea {
+    font-size: 1.2rem;
+    padding: 6px;
+    width: 25%;
+    height: 150px;
+}
+
+.form-element .btn{
+    background: #3e497a;
+    color: #fff;
+}
+
+.form-element .btn:hover{
+    background: #21325e;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+    .form-element input{
+        width: 80%;
+    }
+
+    .form-element textarea{
+        width: 80%;
+    }
+}
